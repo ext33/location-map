@@ -46,6 +46,7 @@ const LocationList: FC = () => {
                     indicator: <LoadingOutlined />,
                     spinning: isLoading
                 }}
+                scroll={{ x: 400 }}
                 pagination={false}
             />
         </div>
